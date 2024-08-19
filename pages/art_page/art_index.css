@@ -19,7 +19,7 @@ body{
   .left_container {
     width: 200px;
     height: 250px;
-    background-color: rgba(51, 51, 51, 0.8); /* Background color with 80% opacity */
+    background-color: rgba(100, 100, 100, 0.5); /* Background color with 80% opacity */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -48,7 +48,7 @@ body{
     position: relative;
     width: 70%;
     height: 750px;
-    background-color: rgba(51, 51, 51, 0.8);
+    background-color: rgba(100, 100, 100, 0.5);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -82,22 +82,33 @@ body{
     color: #fff;
 }
 
+/* Set the text font */
+h1, h2 {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+p {
+    font-family: Arial, sans-serif;
+}
+
 .card h1{
-    font-size: 32px;
+    font-size: 25px;
     font-weight: 400;
     margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .card h2{
-    font-size: 20px;
-    font-weight: 200;
-    margin-bottom: 20px;
+    font-size: 18px;
+    font-weight: 150;
+    margin-bottom: 17px;
 }
 
 .card p{
-    font-size: 18px;
-    font-weight: 200;
-    margin-bottom: 25px;
+    font-size: 13px;
+    font-weight: 100;
+    margin-bottom: 10px;
+    line-height: 1.7; 
 }
 
 .return {

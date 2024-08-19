@@ -10,7 +10,7 @@ body{
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: url('./dict/images/cover.jpg');
+  background-image: url('./dict/images/main_cover.png');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -31,25 +31,26 @@ body{
 
 .text-intro .intro h1{
   text-align: justify;
-  font-size: 40px;
+  font-size: 35px;
   color: #fff;
-  font-weight: 300;
+  font-weight: 550;
+  margin-bottom: 20px;
   /* margin: 20px 20px 0 20px; */
 }
 
 .text-intro .intro h2{
   text-align: justify;
-  font-size: 28px;
+  font-size: 23px;
   color: #fff;
-  font-weight: 200;
-  margin-bottom: 30px;
+  font-weight: 400;
+  margin-bottom: 20px;
   /* margin: 20px 20px 0 20px; */
 }
 
 .text-intro .author h3{
   text-align: justify;
   font-size: 20px;
-  color: #fff;
+  color: #ffffff;
   font-weight: 100;
   margin-bottom: 5px;
   /* margin: 20px 20px 0 20px; */
@@ -58,10 +59,19 @@ body{
 .text-intro .author p{
   text-align: justify;
   font-size: 15px;
-  color: #fff;
+  color: #ffffff;
   font-weight: 100;
   margin-bottom: 5px;
   /* margin: 20px 20px 0 20px; */
+}
+
+.text-intro .author a {
+  color: #ffffff; /* Ensure links are white */
+  text-decoration: none; /* Remove underline from links */
+}
+
+.text-intro .author a:hover {
+  text-decoration: underline; /* Add underline on hover for better visibility */
 }
 
 .container{

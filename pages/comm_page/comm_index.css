@@ -9,7 +9,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url('../../dict/images/comm_cover.jpg');
+    background-image: url('../../dict/images/comm_cover.png');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;

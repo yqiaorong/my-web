@@ -18,4 +18,3 @@ function showContent(section) {
 
 // Initialize with 'Professional' content displayed
 // showContent('professional');
-

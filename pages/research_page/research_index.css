@@ -91,12 +91,12 @@ h1, h2 {
     font-family: 'Times New Roman', Times, serif;
 }
 
-p {
+p, .card ul, .card li {
     font-family: Arial, sans-serif;
 }
 
 .card h1{
-    font-size: 25px;
+    font-size: 26px;
     font-weight: 400;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -108,12 +108,22 @@ p {
     margin-bottom: 17px;
 }
 
-.card p{
+.card p, .card li {
     font-size: 13px;
     font-weight: 100;
     margin-bottom: 10px;
     line-height: 1.7; 
 }
+
+.card ul {
+    font-size: 13px;
+    font-weight: 100;
+    padding-left: 20px; /* Adjust this value for indentation */
+    margin-top: 10px; /* Space above the list */
+    margin-bottom: 10px; /* Space below the list */
+    line-height: 1.7; 
+}
+
 
 .stacking_img {
     position: relative;
@@ -138,10 +148,31 @@ p {
     margin: 850px 0 0 0;
 }
 
-a:link {
-    color: #fff;
+/* a:link {
+    color: #ffffff;
 }
 
 a:visited{
-    color: #fff;
+    color: #8fb4e1;
+} */
+
+a {
+    text-decoration: underline; 
+}
+
+.ext-link {
+    color: #8fb4e1; /* Purple for external links */
+}
+
+.ext-link:visited {
+    color: #8fb4e1; /* Keep purple for visited external links */
+}
+
+.int-link {
+    color: #ffffff; /* White for internal links */
+
+}
+
+.int-link:visited {
+    color: #ffffff; /* Keep purple for visited internal links */
 }

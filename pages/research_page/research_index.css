@@ -161,11 +161,11 @@ a {
 }
 
 .ext-link {
-    color: #8fb4e1; /* Purple for external links */
+    color: #a5ceff; /* Purple for external links */
 }
 
 .ext-link:visited {
-    color: #8fb4e1; /* Keep purple for visited external links */
+    color: #a5ceff;  /* Keep purple for visited external links */
 }
 
 .int-link {

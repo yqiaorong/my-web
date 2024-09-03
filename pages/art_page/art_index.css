@@ -9,7 +9,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url('../../dict/images/gm_cover.jpg');
+    background-image: url('../../dict/images/art_cover.png');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -87,7 +87,7 @@ h1, h2 {
     font-family: 'Times New Roman', Times, serif;
 }
 
-p {
+p, .card ul, .card li {
     font-family: Arial, sans-serif;
 }
 
@@ -104,7 +104,7 @@ p {
     margin-bottom: 17px;
 }
 
-.card p{
+.card p, .card ul, .card li {
     font-size: 13px;
     font-weight: 100;
     margin-bottom: 10px;
@@ -117,16 +117,23 @@ p {
     margin: 850px 0 0 0;
 }
 
-a:link {
-    color: #fff;
+a {
+    text-decoration: underline; 
 }
 
-a:visited{
-    color: #fff;
+.ext-link {
+    color: #a5ceff; /* Purple for external links */
 }
 
-.mall_video{
-    position: relative;
-    margin-left: 200px;
-    margin-right: 200px;
+.ext-link:visited {
+    color: #a5ceff;  /* Keep purple for visited external links */
+}
+
+.int-link {
+    color: #ffffff; /* White for internal links */
+
+}
+
+.int-link:visited {
+    color: #ffffff; /* Keep purple for visited internal links */
 }

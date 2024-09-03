@@ -117,16 +117,23 @@ p, .card ul, .card li {
     margin: 850px 0 0 0;
 }
 
-a:link {
-    color: #fff;
+a {
+    text-decoration: underline; 
 }
 
-a:visited{
-    color: #fff;
+.ext-link {
+    color: #a5ceff; /* Purple for external links */
 }
 
-.mall_video{
-    position: relative;
-    margin-left: 200px;
-    margin-right: 200px;
+.ext-link:visited {
+    color: #a5ceff;  /* Keep purple for visited external links */
+}
+
+.int-link {
+    color: #ffffff; /* White for internal links */
+
+}
+
+.int-link:visited {
+    color: #ffffff; /* Keep purple for visited internal links */
 }

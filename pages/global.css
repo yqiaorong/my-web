@@ -245,9 +245,9 @@ a {
     
     /* Return */
     .return {
-        /* margin-top: auto; */
+        margin-top: auto;
         position: fixed;
-        bottom: 20px;
+        bottom: 10px;
         display: flex;
         justify-content: center;
         /* margin: 10px 0 0 0; */

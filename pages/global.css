@@ -177,12 +177,13 @@ a {
         flex-direction: column;
         justify-content: center;
         background-position: center;
+        align-items: center;
         min-width: 100vw;
     }
 
     /* Top Section */
     .left_container {
-        width: 80%; 
+        width: auto; 
         max-width: 90%;
         height: auto; 
         /* margin: 10px;  */

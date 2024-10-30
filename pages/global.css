@@ -56,10 +56,10 @@ body{
     background-color: #555; /* Change the background color on hover */
 }
 
-.right_present_professional,
-.right_present_research,
-.right_present_inschool,
-.right_present_kaggle {
+.right_present_A,
+.right_present_B,
+.right_present_C,
+.right_present_D {
     position: absolute;
     top: 30px;
     left: 50px;
@@ -72,10 +72,10 @@ body{
     overflow-y: auto; 
 }
 
-.right_present_professional.active,
-.right_present_research.active,
-.right_present_inschool.active,
-.right_present_kaggle.active {
+.right_present_A.active,
+.right_present_B.active,
+.right_present_C.active,
+.right_present_D.active {
     display: block;
 }
 
@@ -201,9 +201,10 @@ a {
     }
 
     /* Responsive adjustments for content sections */
-    .right_present_professional,
-    .right_present_research,
-    .right_present_inschool {
+    .right_present_A,
+    .right_present_B,
+    .right_present_C,
+    .right_present_D {
         top: 1px; /* Adjust positioning */
         left: 1px;
         right: 1px;

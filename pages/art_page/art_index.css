@@ -164,8 +164,8 @@ a {
         flex: 1; 
         width: 90%; /* Take up full width */
         height: auto; /* Set height based on content */
-        margin: 6px; /* Adjust vertical margin */
-        padding: 10px; /* Reduce padding for smaller screen */
+        margin: 5px; /* Adjust vertical margin */
+        padding: 5px; /* Reduce padding for smaller screen */
         display: flex;
         flex-direction: column;
         justify-content: center;

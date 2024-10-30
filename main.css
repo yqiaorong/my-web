@@ -149,6 +149,7 @@ body{
     
   /* Make body take up the full width */
   body {
+      padding-top: 20px;
       flex-direction: column;
       justify-content: flex-start;
       background-position: top;
@@ -176,7 +177,7 @@ body{
   .container .card {
       width: 90%;
       height: auto; /* Allow height to be determined by content */
-      margin: 15px;
+      margin: 5px;
   }
 
   .container .card .content h3 {

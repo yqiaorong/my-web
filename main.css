@@ -173,6 +173,12 @@ body{
       font-size: 14px;
   }
 
+  .container {
+    display: flex;
+    flex-direction: column; /* Stacks cards vertically */
+    align-items: center;    /* Centers each card horizontally */
+}
+
   /* Make cards more flexible and reduce margins */
   .container .card {
       width: auto;

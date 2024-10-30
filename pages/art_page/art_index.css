@@ -164,20 +164,17 @@ a {
         flex: 1; 
         width: 90%; /* Take up full width */
         height: auto; /* Set height based on content */
-        /* margin: 5px auto; ; Adjust vertical margin */
         padding: 2px 2px; /* !important; Reduce padding for smaller screen */
         display: flex;
         flex-direction: column;
         justify-content: center;
         box-sizing: border-box;
-        /* margin-bottom: 6px; */
     }
 
     /* Responsive adjustments for content sections */
     .right_present_professional,
     .right_present_research,
     .right_present_inschool {
-        /* padding: 2px; /* Reduce padding */
         top: 1px; /* Adjust positioning */
         left: 1px;
         right: 1px;
@@ -188,24 +185,21 @@ a {
 
     /* Reduce font sizes for headings and paragraphs */
     h1, h2 {
-        font-size: 20px; /* Smaller heading font size */
+        font-size: 20px;
     }
 
     p, .card ul, .card li {
-        font-size: 12px; /* Smaller text font size */
-    }
-
-    /* Adjust button padding and font size */
-    .btn {
-        padding: 7px;
-        font-size: 14px;
-        /* display: inline-block; */
+        font-size: 12px; 
     }
 
     /* Bottom Section (Return Button) */
+    .btn {
+        padding: 7px;
+        font-size: 14px;
+    }
+
     .return {
-        margin: 20px 0 0 0; /* Adjust top margin for small screens */
+        margin: 20px 0 0 0; 
         margin-top: auto;
-        /* display: inline-block; */
     }
 }

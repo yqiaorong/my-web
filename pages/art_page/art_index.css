@@ -176,7 +176,7 @@ a {
     .right_present_professional,
     .right_present_research,
     .right_present_inschool {
-        padding: 2px; /* Reduce padding */
+        /* padding: 2px; /* Reduce padding * */
         /* top: 20px; /* Adjust positioning
         left: 10px;
         right: 10px;
@@ -198,13 +198,13 @@ a {
     .btn {
         padding: 10px;
         font-size: 14px;
-        display: inline-block;
+        /* display: inline-block; */
     }
 
     /* Bottom Section (Return Button) */
     .return {
         margin: 20px 0 0 0; /* Adjust top margin for small screens */
         margin-top: auto;
-        display: inline-block;
+        /* display: inline-block; */
     }
 }

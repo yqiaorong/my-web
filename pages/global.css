@@ -187,7 +187,6 @@ a {
         height: auto; 
         margin: 10px auto; 
         padding: 5pt;
-        /* display: flex; */
         flex-direction: row;
         justify-content: center;
         align-items: center;
@@ -247,8 +246,10 @@ a {
     /* Return */
     .return {
         /* margin-top: auto; */
-        position: relative;
+        /* position: relative; */
+        bottom: 20px;
         display: flex;
-        margin: 10px 0 0 0;
+        justify-content: center;
+        /* margin: 10px 0 0 0; */
     }
 }

@@ -187,9 +187,13 @@ a {
         height: auto; /* Allow flexible height */
         margin: 10px; 
         padding: 10pt;
+        display: flex;
         flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        box-sizing: border-box;
     }
-
+    
     /* Middle Content Card */
     .right_container {
         flex: 1; 

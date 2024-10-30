@@ -152,19 +152,23 @@ a {
         min-width: 100vw;
     }
 
-    /* Adjust left container to fit mobile screen */
+    /* Top Section */
     .left_container {
         width: 150px; /* Smaller width on mobile */
         height: auto; /* Allow flexible height */
-        margin: 10px 0; /* Reduce side margins */
+        margin: 10px 10px; /* Reduce side margins */
     }
 
-    /* Adjust right container for mobile view */
+    /* Middle Content Card */
     .right_container {
+        flex: 1; 
         width: 100%; /* Take up full width */
         height: auto; /* Set height based on content */
         margin: 15px 0; /* Adjust vertical margin */
         padding: 10px; /* Reduce padding for smaller screen */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
     }
 
     /* Responsive adjustments for content sections */
@@ -172,11 +176,12 @@ a {
     .right_present_research,
     .right_present_inschool {
         padding: 10px; /* Reduce padding */
-        top: 20px; /* Adjust positioning */
+        /* top: 20px; /* Adjust positioning
         left: 10px;
         right: 10px;
-        bottom: 20px;
+        bottom: 20px; */
         max-height: 500px; /* Limit height for small screens */
+        overflow-y: auto;
     }
 
     /* Reduce font sizes for headings and paragraphs */
@@ -194,7 +199,7 @@ a {
         font-size: 14px;
     }
 
-    /* Update return link margin to avoid excess spacing */
+    /* Bottom Section (Return Button) */
     .return {
         margin: 20px 0 0 0; /* Adjust top margin for small screens */
     }

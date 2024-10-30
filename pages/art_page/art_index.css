@@ -162,7 +162,7 @@ a {
     /* Middle Content Card */
     .right_container {
         flex: 1; 
-        width: 95%; /* Take up full width */
+        width: 90%; /* Take up full width */
         height: auto; /* Set height based on content */
         margin: 15px 0; /* Adjust vertical margin */
         padding: 10px; /* Reduce padding for smaller screen */
@@ -198,6 +198,7 @@ a {
     .btn {
         padding: 10px;
         font-size: 14px;
+        display: inline-block;
     }
 
     /* Bottom Section (Return Button) */

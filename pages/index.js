@@ -16,6 +16,8 @@ function showContent(section) {
     document.querySelector(`.btn.${section}`).classList.add('active');
 }
 
-// Initialize with 'Professional' content displayed
-// showContent('professional');
-
+// Initialize with content displayed
+showContent('A');
+showContent('B');
+showContent('C');
+showContent('D');

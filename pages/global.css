@@ -17,7 +17,7 @@ body{
 
 .left_container {
     width: 200px;
-    height: 300px;
+    height: auto;
     background-color: rgba(100, 100, 100, 0.5); /* Background color with 80% opacity */
     display: flex;
     flex-direction: column;

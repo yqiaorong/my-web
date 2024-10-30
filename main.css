@@ -181,8 +181,7 @@ body{
 
   /* Make cards more flexible and reduce margins */
   .container .card {
-      width: auto;
-      max-width: 300px;
+      width: 300px;
       padding: 10px;  
       height: auto; /* Allow height to be determined by content */
       margin: 10px auto;

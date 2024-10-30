@@ -18,6 +18,3 @@ function showContent(section) {
 
 // Initialize with content displayed
 showContent('A');
-showContent('B');
-showContent('C');
-showContent('D');

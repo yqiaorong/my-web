@@ -210,7 +210,7 @@ a {
         top: 5px; /* Adjust positioning */
         left: 5px;
         right: 5px;
-        bottom: 10px;
+        bottom: 5px;
         max-height: 500px; /* Limit height for small screens */
         /* overflow-y: auto; */
     }

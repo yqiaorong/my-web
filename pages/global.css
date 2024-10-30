@@ -42,6 +42,7 @@ body{
     margin: 20px 20px 50px 20px;
 }
 
+/* Buttons */
 .btn {
     padding: 20px;
     margin: 5px;
@@ -50,8 +51,6 @@ body{
     cursor: pointer;
     transition: background-color 0.3s ease; /* Adding a smooth transition effect on hover */
 }
-
-/* Hover effect on buttons */
 .btn:hover {
     background-color: #555; /* Change the background color on hover */
 }
@@ -234,13 +233,22 @@ a {
         height: auto; 
     }
 
-    /* Bottom Section (Return Button) */
+    /* Button */
     .btn {
         padding: 7px;
         font-size: 14px;
+        cursor: pointer;
+        transition: background-color 0.3s ease; /* Adding a smooth transition effect on hover */
     }
-
+    .btn:hover {
+        background-color: #555; /* Change the background color on hover */
+    }
+    
+    /* Return */
     .return {
-        margin-top: auto;
+        /* margin-top: auto; */
+        position: relative;
+        display: flex;
+        margin: 10px 0 0 0;
     }
 }

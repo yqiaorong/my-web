@@ -185,7 +185,8 @@ a {
     .left_container {
         width: 150px; /* Smaller width on mobile */
         height: auto; /* Allow flexible height */
-        margin: 10px 10px; /* Reduce side margins */
+        margin: 10px; 
+        padding: 10pt;
         flex-direction: row;
     }
 

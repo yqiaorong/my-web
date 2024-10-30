@@ -183,17 +183,17 @@ a {
 
     /* Top Section */
     .left_container {
-        width: 150px; /* Smaller width on mobile */
+        width: auto; /* Smaller width on mobile */
         height: auto; /* Allow flexible height */
         margin: 10px; 
-        padding: 10pt;
+        padding: 5pt;
         display: flex;
         flex-direction: row;
         justify-content: center;
         align-items: center;
         box-sizing: border-box;
     }
-    
+
     /* Middle Content Card */
     .right_container {
         flex: 1; 

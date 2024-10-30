@@ -175,9 +175,11 @@ body{
 
   /* Make cards more flexible and reduce margins */
   .container .card {
-      width: 90%;
+      width: auto;
+      max-width: 300px;
+      padding: 10px;  
       height: auto; /* Allow height to be determined by content */
-      margin: 5px;
+      margin: 10px auto;
   }
 
   .container .card .content h3 {

@@ -184,7 +184,7 @@ a {
     /* Center content with padding on body */
     body {
         display: flex;     
-        
+        flex-direction: column;
         justify-content: center;
         background-position: center;
         min-width: 100vw;
@@ -201,7 +201,6 @@ a {
     /* Middle Content Card */
     .right_container {
         flex: 1; 
-        flex-direction: column;
         width: 90%; /* Take up full width */
         height: auto; /* Set height based on content */
         padding: 2px 2px; /* !important; Reduce padding for smaller screen */

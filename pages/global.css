@@ -205,9 +205,9 @@ a {
     .right_present_B,
     .right_present_C,
     .right_present_D {
-        top: 1px; /* Adjust positioning */
-        left: 1px;
-        right: 1px;
+        top: 5px; /* Adjust positioning */
+        left: 5px;
+        right: 5px;
         bottom: 10px;
         max-height: 500px; /* Limit height for small screens */
         overflow-y: auto;

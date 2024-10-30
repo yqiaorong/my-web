@@ -238,7 +238,7 @@ a {
     }
 
     .return {
-        margin: 20px 0 0 0; 
         margin-top: auto;
+        padding: 10px;
     }
 }

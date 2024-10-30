@@ -139,7 +139,6 @@ a {
 }
 
 
-
 /* Media query for small screens (phones, under 600px wide) */
 @media (max-width: 600px) {
 
@@ -178,7 +177,7 @@ a {
         top: 1px; /* Adjust positioning */
         left: 1px;
         right: 1px;
-        bottom: 1px;
+        bottom: 10px;
         max-height: 500px; /* Limit height for small screens */
         overflow-y: auto;
     }
@@ -199,7 +198,6 @@ a {
     }
 
     .return {
-        margin: 20px 0 0 0; 
         margin-top: auto;
     }
 }

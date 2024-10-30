@@ -111,6 +111,23 @@ p, .card ul, .card li {
     line-height: 1.7; 
 }
 
+.stacking_img {
+    position: relative;
+    text-align: center;
+}
+
+.stacking_img img {
+    top: 50%;
+    left: 50%;
+    width: 70%;
+    height: 70%;
+}
+
+.stacking_img p {
+    /* 用于占据空间，以避免文本与图片重叠 */
+    margin: 0;
+}
+
 .return {
     position: relative;
     display: flex;

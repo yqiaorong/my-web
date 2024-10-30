@@ -191,6 +191,11 @@ a {
         font-size: 12px; 
     }
 
+    .stacking_img img {
+        width: 100%; 
+        height: auto; 
+    }
+
     /* Bottom Section (Return Button) */
     .btn {
         padding: 7px;

@@ -162,13 +162,14 @@ a {
     /* Middle Content Card */
     .right_container {
         flex: 1; 
-        width: 100%; /* Take up full width */
+        width: 95%; /* Take up full width */
         height: auto; /* Set height based on content */
         margin: 15px 0; /* Adjust vertical margin */
         padding: 10px; /* Reduce padding for smaller screen */
         display: flex;
         flex-direction: column;
         justify-content: center;
+        margin-bottom: 10px;
     }
 
     /* Responsive adjustments for content sections */
@@ -202,5 +203,7 @@ a {
     /* Bottom Section (Return Button) */
     .return {
         margin: 20px 0 0 0; /* Adjust top margin for small screens */
+        margin-top: auto;
+        display: inline-block;
     }
 }

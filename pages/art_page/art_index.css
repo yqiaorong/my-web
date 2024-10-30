@@ -164,7 +164,7 @@ a {
         flex: 1; 
         width: 90%; /* Take up full width */
         height: auto; /* Set height based on content */
-        margin: 5px auto; ; /* Adjust vertical margin */
+        /* margin: 5px auto; ; Adjust vertical margin */
         /* padding: 0 !important; Reduce padding for smaller screen */
         display: flex;
         flex-direction: column;
@@ -196,7 +196,7 @@ a {
 
     /* Adjust button padding and font size */
     .btn {
-        padding: 10px;
+        padding: 5px;
         font-size: 14px;
         /* display: inline-block; */
     }

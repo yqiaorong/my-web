@@ -16,7 +16,7 @@ body{
     /* flex-direction: column; */
   }
 
-  .left_container {
+.left_container {
     width: 200px;
     height: 300px;
     background-color: rgba(100, 100, 100, 0.5); /* Background color with 80% opacity */
@@ -28,6 +28,19 @@ body{
     /* margin-left: 20px; */
     margin-right:50px;
     margin-left: 20px;
+}
+
+.right_container{
+    position: relative;
+    width: 70%;
+    height: 750px;
+    background-color: rgba(100, 100, 100, 0.5);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    margin: 20px 20px 50px 20px;
 }
 
 .btn {
@@ -44,18 +57,6 @@ body{
     background-color: #555; /* Change the background color on hover */
 }
 
-.right_container{
-    position: relative;
-    width: 70%;
-    height: 750px;
-    background-color: rgba(100, 100, 100, 0.5);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding: 20px;
-    margin: 20px 20px 50px 20px;
-}
 
 .right_present_professional,
 .right_present_research,
@@ -193,7 +194,7 @@ a {
     /* Top Section */
     .left_container {
         display: flex; 
-        flex-direction: row;
+        flex-direction: column;
         width: 150px; /* Smaller width on mobile */
         height: auto; /* Allow flexible height */
         margin: 10px 10px; /* Reduce side margins */

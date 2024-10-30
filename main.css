@@ -143,3 +143,48 @@ body{
   font-weight: 500;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
 }
+
+/* Media query for small screens (phones, under 600px wide) */
+@media (max-width: 600px) {
+    
+  /* Make body take up the full width */
+  body {
+      flex-direction: column;
+      justify-content: flex-start;
+      background-position: top;
+      min-width: 100vw;
+  }
+
+  /* Adjust text sizes */
+  .text-intro .intro h1 {
+      font-size: 28px;
+  }
+
+  .text-intro .intro h2 {
+      font-size: 20px;
+  }
+
+  .text-intro .author h3 {
+      font-size: 18px;
+  }
+
+  .text-intro .author p {
+      font-size: 14px;
+  }
+
+  /* Make cards more flexible and reduce margins */
+  .container .card {
+      width: 90%;
+      height: auto; /* Allow height to be determined by content */
+      margin: 15px;
+  }
+
+  .container .card .content h3 {
+      font-size: 30px;
+  }
+
+  .container .card .content p {
+      font-size: 16px;
+      margin: 10px;
+  }
+}

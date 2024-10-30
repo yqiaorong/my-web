@@ -10,155 +10,155 @@
     <script src="index.js"></script>
 </head>
 
-    <body style="background-image: url('../../dict/images/research_cover.jpg');">
-        <!-- Content on the left, 4 MAXIMUM-->
-        <div class="left_container">
-            
-            <div class="btn prof" onclick="showContent('professional')">
-                <!-- Edit your own categories here-->
-                <h3>Physics</h3>
-            </div>
-            <div class="btn research" onclick="showContent('research')">
-                <h3>Neuroscience</h3>
-            </div>
-            <!-- <div class="btn inschool" onclick="showContent('inschool')">
-                <h3>In-School</h3>
-            </div>
-            <div class="btn kaggle" onclick="showContent('kaggle')">
-                <h3>Kaggle</h3>
-            </div> -->
-            
+<body style="background-image: url('../../dict/images/research_cover.jpg');">
+    <!-- Content on the left, 4 MAXIMUM-->
+    <div class="left_container">
+        
+        <div class="btn prof" onclick="showContent('professional')">
+            <!-- Edit your own categories here-->
+            <h3>Physics</h3>
         </div>
-        <div class="right_container">
-            <!-- Detailed information of the first category -->
-            <div class="right_present_professional content">
+        <div class="btn research" onclick="showContent('research')">
+            <h3>Neuroscience</h3>
+        </div>
+        <!-- <div class="btn inschool" onclick="showContent('inschool')">
+            <h3>In-School</h3>
+        </div>
+        <div class="btn kaggle" onclick="showContent('kaggle')">
+            <h3>Kaggle</h3>
+        </div> -->
+        
+    </div>
+    <div class="right_container">
+        <!-- Detailed information of the first category -->
+        <div class="right_present_professional content">
 
+            <div class="card">
+                <h1>The measurements of the splashback features of dark matter halos using TNG300 and MillenniumTNG simulations</h1>
+                <h2>Vogelsberger Lab, MIT Kavli Institute for Astrophysics and Space Research, Jan 2024 - Ongoing</h2>
+                <p>The splashback radius defines the boundary of a dark matter halo, where infalling dark matter particles 
+                    reach their first apocenter and turn around. By examining the distribution of the splashback radius 
+                    and the associated splashback features of dark matter halos, such as, the width and depth of the minimum 
+                    in the gradient profiles of dark matter halos in cosmological galaxy formation simulations IllustrisTNG 
+                    and MillenniumTNG. In short, the width of the gradient profile decreases with increasing halo mass and 
+                    redshift, indicating a sharper transition in more massive and older halos. Conversely, the depth of the 
+                    gradient profile increases with halo mass and remains relatively independent of redshift, suggesting 
+                    that more massive halos have more pronounced splashback features regardless of their formation epoch.</p>
+                <!-- Bullet points summarizing your role: CAN BE REMOVED AFTER APPLICATION --> 
+                <p>My roles:</p>
+                <ul>
+                    <li>Independently conducted the entire analysis process, including writing code to compute density 
+                        profiles, performing bootstrap methods to obtain statistical results of splashback features, and
+                            using curve fitting techniques to derive mathematical formulas.</li>
+                    <li>Managed complex computations, working with GPU acceleration, implementing parallel computing, and 
+                        handling sbatch job submissions to efficiently process large datasets.</li>
+                    <li>Collaborated with team members to optimize the analysis pipeline, significantly reducing computational 
+                        time and enhancing the overall efficiency of the research process.</li>
+                </ul>
+                <p>Article in preparation.</p>
+                <!-- Insert image -->
+                <img src="../../dict/images/research/dm_halo.png" alt="The splashback features of dark matter halos" style="width:25%; max-width:600px; margin-top: 15px;">
+                <img src="../../dict/images/research/density_profile.png" alt="The density profiles of dark matter halos" style="width:25%; max-width:600px; margin-top: 15px;">
+            </div>
+
+            <hr /> <!-- Horizontal line separator -->
+
+            <!-- <div class="card">
+                <h1>XXX company - XXX Assistant</h1>
+                <h2>Beijing July 202X - December 202X</h2>
+                <p>As a capybara, I can eat, sleep, and play. I can also do some coding, but not much.
+                </p>
+            </div> -->
+
+        </div>
+
+        <!-- Detailed information of the second category -->
+        <div class="right_present_research content">
+
+            <div class="card">
+                <h1>Memory transformation and alpha desynchronization during sleep</h1>
+                <h2>Staresina Lab, University of Oxford, Feb 2024 - Ongoing</h2>
+                <p>Sleep has positive effects on memory consolidation, a critical process for learning 
+                    and cognitive function. By analyzing changes in both lower and higher-level visual 
+                    representations of memories before and after sleep, we aim to understand how sleep 
+                    affects the retention and modification of visual and semantic information.
+                </p>
+                <p>My roles:</p>
+                <ul>
+                    <li>Inplemented EEG data whitening algorithm, and Extracted feature maps from deep neural networks (DNNs), 
+                        including AlexNet, ResNet, BLIP, CLIP, and GPT-Neo, and building encoding models to predict EEG data 
+                        from the extracted feature maps on both Python and Matlab.</li>
+                    <li>Assisting in data collection and analyzing within the group, including EEG setup and localization, fMRI
+                        preprocessing and MVPA, and diffusion MRI analysis and modeling.</li>
+                </ul>
+            </div>
+
+            <hr/>
+
+            <div class="card">
+                <h1>Attempting dream decoding with generalizable visual EEG encoding models</h1>
+                <h2>DxE Laboratory, University of Montreal, May 2023 - Oct 2023</h2>
+                <p> The realm of dreams remains relatively uncharted due to the reliance of subjective 
+                    reports to access dream content. Building a dream decoding model is difficult due 
+                    to the difficulty in collecting large sample sizes of dream experience. We trained 
+                    an encoding model to generate EEG signals from deep neural network feature maps of 
+                    visual images viewed during waking, and used the model to try and predict EEG 
+                    signals collected during dreaming.</p>
+                <!-- Bullet points summarizing your role: CAN BE REMOVED AFTER APPLICATION -->
+                <p>My role:</p>
+                <ul>
+                    <li>Independently developed and implemented the encoding model to map EEG signals 
+                        to visual features, leveraging pre-trained deep neural networks.</li>
+                    <li>Preprocessed EEG data, including noise reduction and artifact removal, to ensure
+                        accurate analysis of neural signals associated with dream content.</li>
+                    <li>Conducted analysis using representative similarity analysis (RSA), permutation 
+                        tests and correlational analysis to decode visual dream content.</li>
+                </ul>
+                <p><a href="../../dict/files/S.Yu_cns_poster.pdf" class="ext-link">Poster</a> was presented at the Cognitive 
+                    Neuroscience Society 2024 Annual Meeting.
+                <!-- Insert image -->
+                <img src="../../dict/images/research/dream_exp.png" alt="The experimental design" style="width:75%; max-width:600px; margin-top: 15px;">
+                <img src="../../dict/images/research/dnn.png" alt="The analysis pipeline" style="width:75%; max-width:600px; margin-top: 15px;">
+            </p>
+            </div>
+
+            <hr/>
+
+        </div>
+
+        <!-- Detailed information of the third category -->
+        <div class="right_present_kaggle content">
+            <div class="card">
                 <div class="card">
-                    <h1>The measurements of the splashback features of dark matter halos using TNG300 and MillenniumTNG simulations</h1>
-                    <h2>Vogelsberger Lab, MIT Kavli Institute for Astrophysics and Space Research, Jan 2024 - Ongoing</h2>
-                    <p>The splashback radius defines the boundary of a dark matter halo, where infalling dark matter particles 
-                        reach their first apocenter and turn around. By examining the distribution of the splashback radius 
-                        and the associated splashback features of dark matter halos, such as, the width and depth of the minimum 
-                        in the gradient profiles of dark matter halos in cosmological galaxy formation simulations IllustrisTNG 
-                        and MillenniumTNG. In short, the width of the gradient profile decreases with increasing halo mass and 
-                        redshift, indicating a sharper transition in more massive and older halos. Conversely, the depth of the 
-                        gradient profile increases with halo mass and remains relatively independent of redshift, suggesting 
-                        that more massive halos have more pronounced splashback features regardless of their formation epoch.</p>
-                    <!-- Bullet points summarizing your role: CAN BE REMOVED AFTER APPLICATION --> 
-                    <p>My roles:</p>
-                    <ul>
-                        <li>Independently conducted the entire analysis process, including writing code to compute density 
-                            profiles, performing bootstrap methods to obtain statistical results of splashback features, and
-                             using curve fitting techniques to derive mathematical formulas.</li>
-                        <li>Managed complex computations, working with GPU acceleration, implementing parallel computing, and 
-                            handling sbatch job submissions to efficiently process large datasets.</li>
-                        <li>Collaborated with team members to optimize the analysis pipeline, significantly reducing computational 
-                            time and enhancing the overall efficiency of the research process.</li>
-                    </ul>
-                    <p>Article in preparation.</p>
-                    <!-- Insert image -->
-                    <img src="../../dict/images/research/dm_halo.png" alt="The splashback features of dark matter halos" style="width:25%; max-width:600px; margin-top: 15px;">
-                    <img src="../../dict/images/research/density_profile.png" alt="The density profiles of dark matter halos" style="width:25%; max-width:600px; margin-top: 15px;">
-                </div>
-
-                <hr /> <!-- Horizontal line separator -->
-
-                <!-- <div class="card">
                     <h1>XXX company - XXX Assistant</h1>
                     <h2>Beijing July 202X - December 202X</h2>
                     <p>As a capybara, I can eat, sleep, and play. I can also do some coding, but not much.
                     </p>
-                </div> -->
+                </div>
+                
+                <!-- Insert Image here. Remove it if not needed -->
+                <div class="stacking_img">
+                    <img src="../../dict/images/capybara.jpg" alt="Process of Stacking">
+                    <p> I am a capybara</p>
+                </div>
 
             </div>
-
-            <!-- Detailed information of the second category -->
-            <div class="right_present_research content">
-
-                <div class="card">
-                    <h1>Memory transformation and alpha desynchronization during sleep</h1>
-                    <h2>Staresina Lab, University of Oxford, Feb 2024 - Ongoing</h2>
-                    <p>Sleep has positive effects on memory consolidation, a critical process for learning 
-                       and cognitive function. By analyzing changes in both lower and higher-level visual 
-                       representations of memories before and after sleep, we aim to understand how sleep 
-                       affects the retention and modification of visual and semantic information.
-                    </p>
-                    <p>My roles:</p>
-                    <ul>
-                        <li>Inplemented EEG data whitening algorithm, and Extracted feature maps from deep neural networks (DNNs), 
-                            including AlexNet, ResNet, BLIP, CLIP, and GPT-Neo, and building encoding models to predict EEG data 
-                            from the extracted feature maps on both Python and Matlab.</li>
-                        <li>Assisting in data collection and analyzing within the group, including EEG setup and localization, fMRI
-                            preprocessing and MVPA, and diffusion MRI analysis and modeling.</li>
-                    </ul>
-                </div>
-
-                <hr/>
-
-                <div class="card">
-                    <h1>Attempting dream decoding with generalizable visual EEG encoding models</h1>
-                    <h2>DxE Laboratory, University of Montreal, May 2023 - Oct 2023</h2>
-                    <p> The realm of dreams remains relatively uncharted due to the reliance of subjective 
-                        reports to access dream content. Building a dream decoding model is difficult due 
-                        to the difficulty in collecting large sample sizes of dream experience. We trained 
-                        an encoding model to generate EEG signals from deep neural network feature maps of 
-                        visual images viewed during waking, and used the model to try and predict EEG 
-                        signals collected during dreaming.</p>
-                    <!-- Bullet points summarizing your role: CAN BE REMOVED AFTER APPLICATION -->
-                    <p>My role:</p>
-                    <ul>
-                        <li>Independently developed and implemented the encoding model to map EEG signals 
-                            to visual features, leveraging pre-trained deep neural networks.</li>
-                        <li>Preprocessed EEG data, including noise reduction and artifact removal, to ensure
-                            accurate analysis of neural signals associated with dream content.</li>
-                        <li>Conducted analysis using representative similarity analysis (RSA), permutation 
-                            tests and correlational analysis to decode visual dream content.</li>
-                    </ul>
-                    <p><a href="../../dict/files/S.Yu_cns_poster.pdf" class="ext-link">Poster</a> was presented at the Cognitive 
-                        Neuroscience Society 2024 Annual Meeting.
-                    <!-- Insert image -->
-                    <img src="../../dict/images/research/dream_exp.png" alt="The experimental design" style="width:75%; max-width:600px; margin-top: 15px;">
-                    <img src="../../dict/images/research/dnn.png" alt="The analysis pipeline" style="width:75%; max-width:600px; margin-top: 15px;">
-                </p>
-                </div>
-
-                <hr/>
-
-            </div>
-
-            <!-- Detailed information of the third category -->
-            <div class="right_present_kaggle content">
-                <div class="card">
-                    <div class="card">
-                        <h1>XXX company - XXX Assistant</h1>
-                        <h2>Beijing July 202X - December 202X</h2>
-                        <p>As a capybara, I can eat, sleep, and play. I can also do some coding, but not much.
-                        </p>
-                    </div>
-                    
-                    <!-- Insert Image here. Remove it if not needed -->
-                    <div class="stacking_img">
-                        <img src="../../dict/images/capybara.jpg" alt="Process of Stacking">
-                        <p> I am a capybara</p>
-                    </div>
-
-                </div>
-                <hr />
-            </div>
-            
-            <!-- Return to the main page -->
-            <div class="return">
-                <div class="btn ds_to_home">
-                    <a href="../../index.html" class="int-link">
-                        <h2>Return</h2>
-                    </a>
-                </div>
+            <hr />
+        </div>
+        
+        <!-- Return to the main page -->
+        <div class="return">
+            <div class="btn ds_to_home">
+                <a href="../../index.html" class="int-link">
+                    <h2>Return</h2>
+                </a>
             </div>
         </div>
+    </div>
 
-        <script>
-            // Initialize with 'Professional' content displayed
-            showContent('professional');
-        </script>
-    </body>
+    <script>
+        // Initialize with 'Professional' content displayed
+        showContent('professional');
+    </script>
+</body>
 </html>

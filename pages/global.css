@@ -56,7 +56,6 @@ body{
     background-color: #555; /* Change the background color on hover */
 }
 
-
 .right_present_professional,
 .right_present_research,
 .right_present_inschool,
@@ -123,7 +122,6 @@ p, .card ul, .card li {
     margin-bottom: 10px; /* Space below the list */
     line-height: 1.7; 
 }
-
 
 .stacking_img {
     position: relative;

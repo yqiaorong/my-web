@@ -185,7 +185,7 @@ a {
         width: auto; 
         max-width: 90%;
         height: auto; 
-        /* margin: 10px;  */
+        margin: 10px auto; 
         padding: 5pt;
         display: flex;
         flex-direction: row;

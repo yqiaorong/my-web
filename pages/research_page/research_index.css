@@ -217,7 +217,7 @@ a {
         top: 1px; /* Adjust positioning */
         left: 1px;
         right: 1px;
-        bottom: 10px;
+        bottom: 1px;
         max-height: 500px; /* Limit height for small screens */
         overflow-y: auto;
     }
@@ -238,6 +238,7 @@ a {
     }
 
     .return {
+        padding: 7px;
         margin-top: auto;
     }
 }

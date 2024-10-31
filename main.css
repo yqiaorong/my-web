@@ -22,6 +22,7 @@ body{
 /* Group intro and container */
 .main-container {
   display: flex;
+  flex-direction: row;
   justify-content: space-between;
   align-items: center;
   width: 80%; /* Set width for centered alignment */

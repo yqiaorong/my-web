@@ -182,6 +182,14 @@ body{
       min-width: 100vw;
   }
 
+  .main-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 95%;
+  }
+
   .text-intro {
     position: relative;
     display: flex;

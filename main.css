@@ -172,6 +172,15 @@ body{
       min-width: 100vw;
   }
 
+  .text-intro {
+    position: relative;
+    display: flex;
+    width: 95%;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+  }
+
   /* Adjust text sizes */
   .text-intro .intro h1 {
       font-size: 28px;

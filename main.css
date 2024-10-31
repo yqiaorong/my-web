@@ -55,7 +55,7 @@ body{
 
 /* Descriptions */
 .text-intro .intro h2{
-  /* width: 90%; The width of this small block on screen */
+  width: 100%;  /* The width of this small block on screen */
   text-align: justify;
   font-size: 25px;
   color: #fff;

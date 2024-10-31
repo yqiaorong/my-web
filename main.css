@@ -188,6 +188,7 @@ body{
     justify-content: center;
     align-items: center;
     margin: 1px;
+    width: 100%;
   }
 
   .text-intro {

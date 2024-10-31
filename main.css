@@ -180,6 +180,8 @@ body{
       justify-content: center;
       background-position: center;
       min-width: 100vw;
+      margin-left: 10px;
+      margin-right: 10px;
   }
 
   .main-container {
@@ -197,8 +199,6 @@ body{
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
-    margin-left: 10px;
-    margin-right: 10px;
   }
 
   /* Adjust text sizes */

@@ -94,27 +94,27 @@ p, .card ul, .card li {
 }
 
 .card h1{
-    font-size: 26px;
+    font-size: 30px;
     font-weight: 400;
     margin-top: 10px;
     margin-bottom: 10px;
 }
 
 .card h2{
-    font-size: 18px;
+    font-size: 22px;
     font-weight: 150;
     margin-bottom: 17px;
 }
 
 .card p, .card li {
-    font-size: 13px;
+    font-size: 18px;
     font-weight: 100;
     margin-bottom: 10px;
     line-height: 1.7; 
 }
 
 .card ul {
-    font-size: 13px;
+    font-size: 18px;
     font-weight: 100;
     padding-left: 20px; /* Adjust this value for indentation */
     margin-top: 10px; /* Space above the list */

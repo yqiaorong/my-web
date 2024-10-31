@@ -9,7 +9,7 @@ body{
   min-width: 100vh;
   display: flex;
   flex-direction: row;
-  justify-content: space-between; 
+  justify-content: center; 
   align-items: center;
   background-image: url('./dict/images/main_cover.png');
   background-position: center;
@@ -17,6 +17,15 @@ body{
   background-repeat: no-repeat;
   font-family: 'Times New Roman', Times, serif;
   margin:0 auto; /* The margin top/bottom, the margin left/right */
+}
+
+/* Group intro and container */
+.main-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%; /* Set width for centered alignment */
+  max-width: 95; /* Limit max width */
 }
 
 .text-intro {

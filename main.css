@@ -132,17 +132,6 @@ body{
   text-align: center;
 }
 
-/* .container .card .content .hov{
-  transform: translateY(100px);
-  opacity: 0;
-  transition: 0.5s;
-} */
-
-/* .container .card:hover .content .hov{
-  transform: translateY(0);
-  opacity: 1;
-} */
-
 .container .card .content h3{
   font-size: 40px;
   color: #fff;
@@ -195,8 +184,9 @@ body{
     position: relative;
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    /* align-items: flex-start; */
     justify-content: center;
+    width: 90%;
   }
 
   /* Adjust text sizes */

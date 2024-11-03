@@ -165,28 +165,28 @@ body{
 @media (max-width: 600px) {
     
   /* Make body take up the full width */
-  /* body {
-      display: flex;  
-      max-width: 100vw;   
+  body {
+      /* display: flex;  
+      max-width: 100vw;    */
       flex-direction: column;
-      justify-content: center; 
+      /* justify-content: center; 
       background-position: center;
       align-items: center;
       padding: 2px 0;
       box-sizing: border-box;
-      overflow-x: hidden;
-  } */
-
-  /* .main-container {
-    display: flex;
-    max-width: 100vw;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 0 10px;
+      overflow-x: hidden; */
   }
 
-  .text-intro {
+  .main-container {
+    /* display: flex;
+    max-width: 100vw; */
+    flex-direction: column;
+    /* justify-content: center;
+    align-items: center;
+    padding: 0 10px; */
+  }
+
+  /* .text-intro {
     display: flex; 
     flex-direction: column;
     justify-content: center; 
@@ -194,7 +194,7 @@ body{
     align-items: center;
     padding: 0 10px;
     margin: 0;
-  } */
+  }  */
 
   /* Adjust text sizes */
   .text-intro .intro h1 {

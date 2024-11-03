@@ -174,8 +174,8 @@ body{
       background-position: center;
       align-items: center;
       padding: 2px 0;
-      /* box-sizing: border-box;
-      overflow-x: hidden; */
+      box-sizing: border-box;
+      overflow-x: hidden;
   }
 
   .main-container {

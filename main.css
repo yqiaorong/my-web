@@ -167,7 +167,7 @@ body{
   /* Make body take up the full width */
   body {
       /* display: flex;      */
-      max-width: 600px;
+      max-width: 100vw;
       flex-direction: column;
       /* justify-content: center; */
       background-position: center;

@@ -187,15 +187,15 @@ body{
     /* padding: 0 10px; */
   }
 
-  /* .text-intro {
-    display: flex; 
+  .text-intro {
+    /* display: flex; 
     flex-direction: column;
     justify-content: center; 
     text-align: center; 
     align-items: center;
-    padding: 0 10px;
+    padding: 0 10px; */
     margin: 0;
-  }  */
+  } 
 
   /* Adjust text sizes */
   .text-intro .intro h1 {
@@ -217,9 +217,10 @@ body{
   .container {
     /* display: flex; */
     flex-direction: column; 
-    align-items: center;    
-    /* width: 100%;
-    box-sizing: border-box; */
+    align-items: center;  
+    margin: 0;  
+    /* width: 100%; */
+    /* box-sizing: border-box; */
 }
 
   /* Make cards more flexible and reduce margins */
@@ -229,8 +230,8 @@ body{
       /* padding: 10px;   */
       align-items: center;
       height: auto; 
-      /* margin: 10px auto;
-      box-sizing: border-box; */
+      /* margin: 10px auto; */
+      /* box-sizing: border-box; */
   }
 
   .container .card .content h3 {

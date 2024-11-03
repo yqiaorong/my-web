@@ -180,6 +180,7 @@ body{
 
   .main-container {
     /* display: flex; */
+    max-width: 100vh;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -191,8 +192,9 @@ body{
   .text-intro {
     /* position: relative; */
     /* display: flex; */
-    /* flex-direction: column;
-    justify-content: center; */
+    /* flex-direction: column;*/
+    justify-content: center; 
+    max-width: 100vh;
     width: 100%;
     text-align: center; 
     align-items: center;

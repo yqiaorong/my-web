@@ -173,7 +173,6 @@ body{
       justify-content: center;
       background-position: center;
       align-items: center;
-      width: 100%;
       padding: 2px 0;
       box-sizing: border-box;
       overflow-x: hidden;
@@ -185,7 +184,6 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 100%;
     padding: 0 10px;
     box-sizing: border-box;
     overflow-x: hidden; 

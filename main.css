@@ -159,6 +159,8 @@ body{
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
 }
 
+
+
 /* Media query for small screens (phones, under 600px wide) */
 @media (max-width: 600px) {
     
@@ -168,9 +170,10 @@ body{
       flex-direction: column;
       justify-content: center;
       background-position: center;
-      /* min-width: 100vw; */
+      align-items: center;
       width: 100%;
       padding: 2px 0;
+      overflow-x: hidden;
   }
 
   .main-container {
@@ -178,17 +181,18 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 0 auto;
+    margin: 0;
     width: 100%;
     box-sizing: border-box;
   }
 
   .text-intro {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+    /* position: relative; */
+    /* display: flex; */
+    /* flex-direction: column;
+    justify-content: center; */
     width: 90%;
+    padding: 0 10px;
     box-sizing: border-box;
   }
 
@@ -213,6 +217,7 @@ body{
     display: flex;
     flex-direction: column; 
     align-items: center;    
+    width: 100%;
     box-sizing: border-box;
 }
 
@@ -238,7 +243,7 @@ body{
 
 
 /* Media query for median screens (iPad) */
-@media (min-width: 768px) and (max-width: 1024px) {
+@media (min-width: 768px) and (max-width: 900px) {
   /* Styles for iPad screen sizes */
 
   .main-container {

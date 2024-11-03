@@ -181,8 +181,8 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 0;
     width: 100%;
+    padding: 0 10px;
     box-sizing: border-box;
   }
 
@@ -191,9 +191,11 @@ body{
     /* display: flex; */
     /* flex-direction: column;
     justify-content: center; */
-    width: 90%;
+    width: 100%;
+    text-align: center; 
+    align-items: center;
     padding: 0 10px;
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
   }
 
   /* Adjust text sizes */

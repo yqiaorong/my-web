@@ -177,32 +177,24 @@ body{
       overflow-x: hidden;
   }
 
-  .main-container {
+  /* .main-container {
     display: flex;
-    /* max-width: 100vw; */
+    max-width: 100vw;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     padding: 0 10px;
-    /* box-sizing: border-box;
-    overflow-x: hidden;  */
   }
 
   .text-intro {
-    /* position: relative; */
     display: flex; 
     flex-direction: column;
     justify-content: center; 
-    /* max-width: 100vw; */
-    /* width: 100%; */
     text-align: center; 
     align-items: center;
     padding: 0 10px;
-    margin-left: 0;
-    margin-right: 0;
-    /* overflow-x: hidden; 
-    box-sizing: border-box; */
-  }
+    margin: 0;
+  } */
 
   /* Adjust text sizes */
   .text-intro .intro h1 {

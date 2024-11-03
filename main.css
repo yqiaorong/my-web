@@ -166,18 +166,19 @@ body{
     
   /* Make body take up the full width */
   body {
-      display: flex;     
+      /* display: flex;      */
       flex-direction: column;
-      justify-content: center;
-      background-position: center;
-      align-items: center;
+      /* justify-content: center; */
+      /* background-position: center; */
+      /* align-items: center; */
       width: 100%;
       padding: 2px 0;
       overflow-x: hidden;
+      box-sizing: border-box;
   }
 
   .main-container {
-    display: flex;
+    /* display: flex; */
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -195,7 +196,9 @@ body{
     text-align: center; 
     align-items: center;
     padding: 0 10px;
-    /* box-sizing: border-box; */
+    margin-left: 0;
+    margin-right: 0;
+    box-sizing: border-box;
   }
 
   /* Adjust text sizes */
@@ -245,7 +248,7 @@ body{
 
 
 /* Media query for median screens (iPad) */
-@media (min-width: 768px) and (max-width: 900px) {
+@media (min-width: 600px) and (max-width: 800px) {
   /* Styles for iPad screen sizes */
 
   .main-container {

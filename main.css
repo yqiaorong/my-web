@@ -169,6 +169,7 @@ body{
       justify-content: center;
       background-position: center;
       /* min-width: 100vw; */
+      width: 100%;
       padding: 2px 0;
   }
 
@@ -232,5 +233,62 @@ body{
   .container .card .content p {
       font-size: 16px;
       margin: 10px;
+  }
+}
+
+
+/* Media query for median screens (iPad) */
+@media (min-width: 768px) and (max-width: 1024px) {
+  /* Styles for iPad screen sizes */
+
+  .main-container {
+    display: flex;
+    flex-direction: row; /* Side-by-side layout on larger screen */
+    justify-content: center;
+    align-items: center;
+    width: 85%; /* Take up a bit more space */
+    margin: 0 auto;
+  }
+
+  .text-intro {
+    width: 40%; /* Slightly narrower for iPad layout */
+    padding: 20px;
+    box-sizing: border-box;
+  }
+
+  .container {
+    width: 55%; /* Adjust for iPad to keep balance */
+    padding: 20px;
+    box-sizing: border-box;
+  }
+
+  /* Adjust font sizes for iPad */
+  .text-intro .intro h1 {
+      font-size: 32px;
+  }
+
+  .text-intro .intro h2 {
+      font-size: 24px;
+  }
+
+  .text-intro .author h3 {
+      font-size: 20px;
+  }
+
+  .text-intro .author p {
+      font-size: 18px;
+  }
+
+  .container .card {
+      width: 300px;
+      margin: 15px;
+  }
+
+  .container .card .content h3 {
+      font-size: 26px;
+  }
+
+  .container .card .content p {
+      font-size: 16px;
   }
 }
